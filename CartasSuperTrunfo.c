@@ -17,6 +17,8 @@ int main() {
     // Exibição dos Dados das Cartas:
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
+    
+    // Dados solicitados da carta 1.
 
     int Carta = 1;
     char Estado [20] = "Goiás";
@@ -26,6 +28,8 @@ int main() {
     float Area = 2545.22;
     float Pib = 625.77;
     int Pontos = 16;
+    
+    // Exibindo dados da Carta 1.
 
     printf("Desafio Super Trunfo!\n\n");
     printf("Carta: %d\n" , Carta);
@@ -37,6 +41,7 @@ int main() {
     printf("PIB: %f bulhões de reais\n" , Pib);
     printf("Número de pontos turísticos: %d\n\n" , Pontos);
 
+    // Dados solicitados da carta 2.
 
     int carta = 2;
     char estado [20] = "Amazonas";
@@ -47,7 +52,8 @@ int main() {
     float pib = 898.44;
     int pontos = 34;
 
-
+    // Exibindo dados da carta 2
+    
     printf("Carta: %d\n" , carta);
     printf("Estado: %s\n" , estado);
     printf("Código: %s\n" , codigo);
